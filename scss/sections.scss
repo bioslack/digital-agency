@@ -1,0 +1,247 @@
+.header {
+  margin: 0 auto;
+  max-width: $grid-width;
+  position: relative;
+  padding-top: 50px;
+
+  &--heading {
+    max-width: 75%;
+    margin: 0 auto;
+  }
+
+  &--picture {
+    width: 100%;
+    object-fit: cover;
+    max-height: 500px;
+  }
+}
+
+.services {
+  padding-top: 70px;
+  padding-bottom: 100px;
+
+  &__card {
+    text-align: center;
+    border: 2px solid #ededed;
+    padding: 30px 35px 10px;
+    border-radius: 10px;
+    min-height: 320px;
+    transition: box-shadow 200ms, transform 200ms;
+    cursor: pointer;
+
+    &:hover {
+      box-shadow: 7px 30px 50px #9994;
+      border: none;
+      border-radius: 0;
+      transform: translateY(-5px);
+    }
+  }
+
+  &__card-icon {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    display: inline-block;
+    position: relative;
+    margin-bottom: 15px;
+
+    & img {
+      position: absolute;
+      height: 40px;
+      width: 40px;
+      top: 25%;
+      left: 25%;
+    }
+
+    &--1 {
+      background-color: #eef7ff;
+    }
+
+    &--2 {
+      background-color: #fbf5ff;
+    }
+
+    &--3 {
+      background-color: #fff0f4;
+    }
+  }
+}
+
+.case-studies {
+  &__card-picture {
+    background-color: #c3c3c3;
+    height: 450px;
+    border-radius: 5px;
+  }
+}
+
+.about-us {
+  color: white;
+  background-color: #08100e;
+  margin-top: 30px;
+  padding: 80px;
+
+  &__picture {
+    background-image: url(../img/office.jpg);
+    background-size: cover;
+    height: 450px;
+    width: 400px;
+    margin: 0 auto;
+  }
+}
+
+.recent-projects {
+  margin: 0 auto;
+  padding: 80px 0 80px 80px;
+
+  &__slides {
+    height: 450px;
+  }
+
+  &__card {
+    height: 450px;
+    padding: 25px;
+    display: block;
+    position: relative;
+
+    &:not(:last-child) {
+      margin-bottom: 10px;
+    }
+
+    &__picture {
+      display: block;
+      max-width: 100%;
+      max-height: 70%;
+      margin-top: 25px;
+    }
+
+    &--1 {
+      height: 450px;
+      background-color: #de8a35;
+    }
+
+    &--2 {
+      height: 450px;
+      background-color: #145546;
+    }
+
+    &--3 {
+      height: 450px;
+      background-color: #6e64a4;
+    }
+  }
+}
+
+.customer-feedback {
+  position: relative;
+  margin: 0 auto;
+  padding: 80px 0 320px 80px;
+
+  &__slide {
+    height: 300px;
+    position: relative;
+    padding-top: 45px;
+    margin-bottom: 70px;
+
+    &__logo {
+      position: absolute;
+      margin: 0 calc(50% - 45px);
+      top: 0;
+      border-radius: 50%;
+      border: 2px solid #cdcdcd;
+      height: 90px;
+      width: 90px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: 50% 50%;
+
+      &--1 {
+        background-image: url(../img/logo-1.png);
+      }
+
+      &--2 {
+        background-image: url(../img/logo-2.webp);
+      }
+
+      &--3 {
+        background-image: url(../img/logo-3.png);
+      }
+    }
+
+    &__card {
+      display: block;
+      border-radius: 25px;
+      min-height: 225px;
+      border: 2px solid #c3c3c399;
+      padding: 60px 45px 0;
+    }
+
+    &__profile {
+      border-top: 1px solid #cdcdcd;
+      margin-top: 24px;
+      padding-top: 20px;
+      text-align: center;
+      margin-right: 30px;
+    }
+
+    &__profile-content {
+      display: block;
+      padding-left: 15%;
+      padding-right: 15%;
+      margin-bottom: 20px;
+      @include clearfix;
+    }
+
+    &__profile-picture {
+      display: block;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background-color: #145546;
+      float: left;
+
+      &--1 {
+        background-image: url(../img/customer-4.jpeg);
+        background-size: cover;
+      }
+
+      &--2 {
+        background-image: url(../img/customer-2.jpeg);
+        background-size: cover;
+      }
+
+      &--3 {
+        background-image: url(../img/customer-3.jpeg);
+        background-size: cover;
+      }
+    }
+  }
+}
+
+.panel {
+  position: absolute;
+  bottom: -250px;
+  padding: 80px 150px;
+  margin: 80px 80px 80px 0px;
+  box-shadow: 1px 1px 3px #000;
+  background-color: #fff;
+}
+
+.footer {
+  background-color: $color-primary;
+  padding-top: 270px;
+  padding-bottom: 50px;
+
+  &__section {
+    list-style: none;
+  }
+
+  &__title {
+    font-weight: bold;
+    color: white;
+  }
+
+  &__item {
+    color: white;
+  }
+}

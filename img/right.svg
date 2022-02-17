@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="40"
+   height="40"
+   viewBox="0 0 10.583333 10.583334"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (3bf5ae0, 2021-09-20)"
+   sodipodi:docname="right.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     units="px"
+     width="40px"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:zoom="11.313708"
+     inkscape:cx="27.709747"
+     inkscape:cy="26.958446"
+     inkscape:window-width="1366"
+     inkscape:window-height="739"
+     inkscape:window-x="1360"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Camada 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g1564"
+       inkscape:export-filename="/home/luis/Documents/projects/portfolio/digital-agency/img/right.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
+      <rect
+         style="fill:#ffffff;stroke:#145546;stroke-width:1.12991;stroke-linejoin:round;paint-order:fill markers stroke"
+         id="rect1106"
+         width="9.4652805"
+         height="1.503982e-14"
+         x="0.55902642"
+         y="5.2724218"
+         inkscape:transform-center-x="-0.0020293346"
+         inkscape:transform-center-y="-0.019465054" />
+      <rect
+         style="fill:#ffffff;stroke:#145546;stroke-width:1.111;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:fill markers stroke"
+         id="rect1106-3"
+         width="4.8780074"
+         height="1.503982e-14"
+         x="6.4300303"
+         y="-0.64300561"
+         transform="rotate(30.99723)" />
+      <rect
+         style="fill:#ffffff;stroke:#145546;stroke-width:1.111;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:fill markers stroke"
+         id="rect1106-3-7"
+         width="4.8780074"
+         height="1.503982e-14"
+         x="-5.8774786"
+         y="9.681963"
+         transform="matrix(-0.8571922,0.51499663,0.51499663,0.8571922,0,0)" />
+    </g>
+  </g>
+</svg>

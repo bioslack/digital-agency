@@ -1,0 +1,4 @@
+.link {
+  @include format-link($color-primary, 24px);
+  text-decoration: underline !important;
+}

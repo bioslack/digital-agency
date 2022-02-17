@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="./node_modules/@splidejs/splide/dist/css/splide-core.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./node_modules/@splidejs/splide/dist/css/splide.min.css"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Space_UI</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <span class="navbar--logo"><a href="#">Space_UI</a></span>
+      <ul class="navbar--nav">
+        <li class="navbar--item"><a class="navbar--link" href="#">Home</a></li>
+        <li class="navbar--item">
+          <a class="navbar--link" href="#">Service</a>
+        </li>
+        <li class="navbar--item">
+          <a class="navbar--link" href="#">About Us</a>
+        </li>
+        <li class="navbar--item">
+          <a class="navbar--link" href="#">Join Us</a>
+        </li>
+        <li class="navbar--item">
+          <a href="#" class="btn">Start a Project</a>
+        </li>
+      </ul>
+    </nav>
+    <!-- Header Section -->
+    <section class="header">
+      <h1
+        class="heading-primary header--heading align-center margin-bottom-medium bolder"
+      >
+        We Make Amazing Digital Products With Your Business
+      </h1>
+
+      <div class="align-center margin-bottom-large">
+        <a class="link" href="#">Start a Project &rarr;</a>
+      </div>
+
+      <img class="header--picture" alt="office" src="img/header-picture.jpg" />
+    </section>
+
+    <!-- Services sections -->
+    <section class="services">
+      <div class="align-center margin-bottom-large">
+        <h2 class="heading-secondary bold">Our Services</h2>
+      </div>
+      <div class="row">
+        <div class="col-1-of-3">
+          <div class="services__card">
+            <div class="services__card-icon services__card-icon--1">
+              <img alt="icon-1" src="img/icon-1.svg" />
+            </div>
+            <div class="align-center margin-bottom-small">
+              <h3 class="heading-quaternary w-500">UI/UX Design</h3>
+            </div>
+            <p class="paragraph services__paragraph">
+              Craft delightful user experiences for your digital products and
+              service. Solve real problems your business
+            </p>
+          </div>
+        </div>
+
+        <div class="col-1-of-3">
+          <div class="services__card">
+            <div class="services__card-icon services__card-icon--2">
+              <img alt="icon-2" src="img/icon-2.svg" />
+            </div>
+            <div class="align-center margin-bottom-small">
+              <h3 class="heading-quaternary w-500">Web Development</h3>
+            </div>
+            <p class="paragraph services__paragraph">
+              Web development is a process that creates growth, progress,
+              positive change
+            </p>
+          </div>
+        </div>
+
+        <div class="col-1-of-3">
+          <div class="services__card">
+            <div class="services__card-icon services__card-icon--3">
+              <img alt="icon-3" src="img/icon-3.svg" />
+            </div>
+            <div class="align-center margin-bottom-small">
+              <h3 class="heading-quaternary w-500">Mobile App Development</h3>
+            </div>
+            <p class="paragraph services__paragraph">
+              Mobile app development is the act or process by which a mobile app
+              is developed for mobile devices
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Case studies -->
+    <section class="case-studies">
+      <div class="row margin-bottom-large">
+        <div class="col-1-of-2">
+          <h2 class="heading-secondary">Case Studies</h2>
+        </div>
+        <div class="col-1-of-2 align-right">
+          <a class="link" href="#">See All &rarr;</a>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-1-of-2">
+          <div class="case-studies__card">
+            <div class="case-studies__card-picture margin-bottom-medium"></div>
+            <h3 class="heading-tertiary margin-bottom-small">
+              Xspace - Parking Mobile App
+            </h3>
+            <a class="link" href="#">View Case Studies &rarr;</a>
+          </div>
+        </div>
+        <div class="col-1-of-2">
+          <div class="case-studies__card-picture margin-bottom-medium"></div>
+          <h3 class="heading-tertiary margin-bottom-small">
+            Etech - Education Online Course
+          </h3>
+          <a class="link" href="#">View Case Studies &rarr;</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Us -->
+    <section class="about-us">
+      <div class="row">
+        <div class="col-1-of-2">
+          <h3 class="heading-tertiary margin-bottom-medium">About Us</h3>
+          <p class="paragraph">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores,
+            cum temporibus reprehenderit possimus ut accusamus ea deserunt
+            impedit. Repudiandae doloribus, voluptatibus inventore sit esse
+            impedit delectus cum itaque asperiores animi? Lorem ipsum dolor sit
+            amet consectetur adipisicing elit. Asperiores, cum temporibus
+            reprehenderit possimus ut accusamus ea deserunt impedit. Repudiandae
+            doloribus, voluptatibus inventore sit esse impedit delectus cum
+            itaque asperiores animi?
+          </p>
+        </div>
+        <div class="col-1-of-2">
+          <div class="about-us__picture"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Recent Projects -->
+    <section class="recent-projects">
+      <h2 class="heading-secondary margin-bottom-medium">
+        Our Recent Projects
+      </h2>
+
+      <div class="splide" id="recent-projects">
+        <div class="splide__arrows">
+          <button class="splide__arrow splide__arrow--prev">
+            <img src="./img/left.png" style="transform: scale(0.7)" />
+          </button>
+          <button class="splide__arrow splide__arrow--next">
+            <img src="./img/right.png" style="transform: scale(0.7)" />
+          </button>
+        </div>
+        <div class="splide__track">
+          <ul class="splide__list">
+            <li class="splide__slide">
+              <div class="recent-projects__card recent-projects__card--1">
+                <h3 class="heading-tertiary font-white">E-commerce Website</h3>
+                <h6 class="heading-senary font-white">
+                  This website for sunnah lab ecommerce clothes
+                </h6>
+                <div class="align-center">
+                  <img
+                    src="img/project-a.png"
+                    class="recent-projects__card__picture"
+                  />
+                </div>
+              </div>
+            </li>
+            <li class="splide__slide">
+              <div class="recent-projects__card recent-projects__card--2">
+                <h3 class="heading-tertiary font-white">Real State</h3>
+                <h6 class="heading-senary font-white">
+                  Mobile app design for house Buy and Sell
+                </h6>
+                <div class="align-left" style="transform: translateX(25px)">
+                  <img
+                    src="img/project-b.png"
+                    class="recent-projects__card__picture"
+                  />
+                </div>
+              </div>
+            </li>
+            <li class="splide__slide">
+              <div class="recent-projects__card recent-projects__card--3">
+                <h3 class="heading-tertiary font-white">Task Manager</h3>
+                <h6 class="heading-senary font-white">
+                  This website for sunnah lab ecommerce clothes
+                </h6>
+                <div class="align-center">
+                  <img
+                    src="img/project-slide-c.webp"
+                    class="recent-projects__card__picture"
+                  />
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="splide__progress">
+          <div class="splide__progress__bar"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Customer Feedback -->
+    <section class="customer-feedback">
+      <h2 class="heading-secondary margin-bottom-medium">
+        Customer Talk About Us
+      </h2>
+
+      <div class="splide" id="customer-feedback">
+        <div class="splide__arrows">
+          <button class="splide__arrow splide__arrow--prev">
+            <img src="./img/left.png" style="transform: scale(0.7)" />
+          </button>
+          <button class="splide__arrow splide__arrow--next">
+            <img src="./img/right.png" style="transform: scale(0.7)" />
+          </button>
+        </div>
+        <div class="splide__track">
+          <ul class="splide__list">
+            <li class="splide__slide">
+              <div class="customer-feedback__slide">
+                <div
+                  class="customer-feedback__slide__logo customer-feedback__slide__logo--1"
+                ></div>
+                <div class="customer-feedback__slide__card">
+                  <p class="paragraph align-center">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Consectetur eius, porro quibusdam explicabo repellendus
+                    nulla quos nostrum quisquam officiis enim aliquid animi
+                  </p>
+
+                  <div class="customer-feedback__slide__profile">
+                    <div class="customer-feedback__slide__profile-content">
+                      <div
+                        class="customer-feedback__slide__profile-picture customer-feedback__slide__profile-picture--1"
+                      ></div>
+                      <div class="customer-feedback__slide__profile-info">
+                        <div class="customer-feedback__slide__profile-name">
+                          <h5 class="heading-quinary">Karl Hoffman</h5>
+                        </div>
+                        <div class="caption">CEO, BMW, Germany</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="splide__slide">
+              <div class="customer-feedback__slide">
+                <div
+                  class="customer-feedback__slide__logo customer-feedback__slide__logo--2"
+                ></div>
+                <div class="customer-feedback__slide__card">
+                  <p class="paragraph align-center">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Consectetur eius, porro quibusdam explicabo repellendus
+                    nulla quos nostrum quisquam officiis enim aliquid animi
+                  </p>
+
+                  <div class="customer-feedback__slide__profile">
+                    <div class="customer-feedback__slide__profile-content">
+                      <div
+                        class="customer-feedback__slide__profile-picture customer-feedback__slide__profile-picture--2"
+                      ></div>
+                      <div class="customer-feedback__slide__profile-info">
+                        <div class="customer-feedback__slide__profile-name">
+                          <h5 class="heading-quinary">Teresa Roberts</h5>
+                        </div>
+                        <div class="caption">CTO, Shell, Netherlands</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="splide__slide">
+              <div class="customer-feedback__slide">
+                <div
+                  class="customer-feedback__slide__logo customer-feedback__slide__logo--3"
+                ></div>
+                <div class="customer-feedback__slide__card">
+                  <p class="paragraph align-center">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Consectetur eius, porro quibusdam explicabo repellendus
+                    nulla quos nostrum quisquam officiis enim aliquid animi
+                  </p>
+
+                  <div class="customer-feedback__slide__profile">
+                    <div class="customer-feedback__slide__profile-content">
+                      <div
+                        class="customer-feedback__slide__profile-picture customer-feedback__slide__profile-picture--3"
+                      ></div>
+                      <div class="customer-feedback__slide__profile-info">
+                        <div class="customer-feedback__slide__profile-name">
+                          <h5 class="heading-quinary">Tom Richards</h5>
+                        </div>
+                        <div class="caption">CTO, Dell, United States</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="splide__progress">
+          <div class="splide__progress__bar"></div>
+        </div>
+      </div>
+
+      <!-- Panel -->
+      <div class="panel">
+        <h2 class="heading-secondary align-center w-500 margin-bottom-medium">
+          Have a project in mind? Let's get to work
+        </h2>
+
+        <div class="align-center margin-bottom-large">
+          <a class="link" href="#">Start a Project &rarr;</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <section class="footer">
+      <div class="row">
+        <div class="col-2-of-5">
+          <h4 class="heading-quaternary color-white bold margin-bottom-small">
+            Space_UI
+          </h4>
+          <p class="color-white" style="padding-right: 30px">
+            Creative Design and Devolopment Agency in Bangladesh
+          </p>
+        </div>
+        <div class="col-1-of-5">
+          <ul class="footer__section">
+            <li class="footer__title margin-bottom-small">Support</li>
+            <li class="footer__item">Carrers</li>
+            <li class="footer__item">FAQ</li>
+            <li class="footer__item">Privacy Policy</li>
+            <li class="footer__item">Help</li>
+          </ul>
+        </div>
+        <div class="col-1-of-5">
+          <ul class="footer__section">
+            <li class="footer__title margin-bottom-small">Social</li>
+            <li class="footer__item">Facebook</li>
+            <li class="footer__item">Twitter</li>
+            <li class="footer__item">Linkedin</li>
+            <li class="footer__item">Instagram</li>
+          </ul>
+        </div>
+        <div class="col-1-of-5">
+          <ul class="footer__section">
+            <li class="footer__title margin-bottom-small">Contact Us</li>
+            <li class="footer__item">(99) 98888-8888</li>
+            <li class="footer__item">contato@gmail.com</li>
+            <li class="footer__item">www.spaceui.com</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <script src="./node_modules/@splidejs/splide/dist/js/splide.min.js"></script>
+    <script src="js/carousel.js"></script>
+  </body>
+</html>

@@ -1,0 +1,103 @@
+.carousel {
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 45px;
+
+  &__slide {
+    position: absolute;
+    transition: transform 0.8s;
+  }
+
+  &__controls {
+    position: absolute;
+    width: 100%;
+    overflow: visible;
+    bottom: 15px;
+  }
+
+  &__controls-bar {
+    position: absolute;
+    bottom: 0;
+    height: 5px;
+    width: 90%;
+    background-color: #c3c3c3;
+  }
+
+  &__controls-left {
+    position: absolute;
+    cursor: pointer;
+    bottom: -16.5px;
+    right: 50px;
+    font-size: 28px;
+  }
+
+  &__controls-right {
+    position: absolute;
+    cursor: pointer;
+    bottom: -16.5px;
+    right: 0;
+    font-size: 28px;
+  }
+
+  &__controls-indicator {
+    position: absolute;
+    display: inline-block;
+    background-color: $color-primary;
+    height: 5px;
+    transition: transform 500ms;
+  }
+}
+
+.splide {
+  position: relative;
+
+  &__arrow--prev {
+    position: absolute;
+    transform: scale(0.8);
+    outline: none;
+    border: none;
+    height: 45px;
+    // margin-right: 25px;
+    background-color: transparent;
+    left: -80px;
+  }
+
+  &__arrow--next {
+    position: absolute;
+    transform: scale(0.8);
+    outline: none;
+    border: none;
+    height: 45px;
+    background-color: transparent;
+  }
+
+  &__arrows {
+    position: absolute;
+    bottom: -0.4rem;
+    right: 3rem;
+    z-index: 10000;
+    display: flex;
+  }
+
+  &__progress {
+    position: absolute;
+    display: block;
+    height: 5px;
+    background-color: #ccc;
+    bottom: -2rem;
+    width: 85%;
+    border-radius: 5px;
+  }
+
+  &__progress__bar {
+    background-color: $color-primary;
+    height: 5px;
+    transition: width 400ms ease;
+    width: 0;
+    border-radius: 5px;
+  }
+
+  &__pagination {
+    display: none;
+  }
+}

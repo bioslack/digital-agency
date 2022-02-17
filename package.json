@@ -1,0 +1,13 @@
+{
+  "name": "digital-agency",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "live-server .",
+    "compile:scss": "sass -w ./scss/main.scss ./css/styles.css"
+  },
+  "dependencies": {
+    "@splidejs/splide": "^3.6.12"
+  }
+}

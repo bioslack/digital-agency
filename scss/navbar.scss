@@ -1,0 +1,29 @@
+.navbar {
+  padding: 40px 0;
+  max-width: $grid-width;
+  margin: 0 auto;
+  @include clearfix;
+
+  &--nav {
+    float: right;
+  }
+
+  &--item {
+    list-style: none;
+    float: left;
+    margin-right: 32px;
+    padding: 5px;
+  }
+
+  &--logo {
+    float: left;
+    padding: 5px;
+    & a {
+      @include format-link($color-primary, 25px, 600);
+    }
+  }
+
+  &--link {
+    @include format-link($color-black, 16px);
+  }
+}

@@ -1,0 +1,22 @@
+@mixin clearfix {
+  &::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+}
+
+@mixin format-link($color, $font-size, $weight: normal) {
+  &:link,
+  &:visited {
+    text-decoration: none;
+    color: $color;
+    font-size: $font-size;
+    font-weight: $weight;
+  }
+
+  &:hover,
+  &:active {
+    color: lighten($color: $color, $amount: 0.2);
+  }
+}
